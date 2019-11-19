@@ -1,7 +1,7 @@
 import unittest
 
 from flask import Flask, Response, make_response
-from flask.ext.login import current_user as login_user
+from flask_login import current_user as login_user
 
 from flask_rbac import RBAC, UserMixin, RoleMixin
 
